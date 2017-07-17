@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Unix Timestamp Converter</title>
+    <style>
+    body {
+      font-family: sans-serif;
+      }
+      h3 {
+        font-weight: lighter;
+        padding-bottom: 1rem;
+      }
+      .secondary {
+        padding-top: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>This is a NodeJS Microservice to convert UNIX timestamps into natural date and vise versa.</h3>
+    <ul>1) Enter a UNIX timestamp and it gets converted to a natural date.</ul>
+    <ul>2) Enter a natural date and it gets converted to a UNIX timestamp.</ul>
+    <ul>3) Invalid inputs will result in a null response.</ul>
+
+    <p class="secondary">Example Usage:</p>
+    <code>https://unixtimestampconvert.herokuapp.com/December%2015,%202015</code><br>
+    <code>https://unixtimestampconvert.herokuapp.com/1450137600</code>
+    <p class="secondary">Example Output</p>
+    <code>{ "unix": 1450137600, "natural": "December 15, 2015" }</code>
+  </body>
+</html>

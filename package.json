@@ -1,0 +1,21 @@
+{
+  "name": "timestamp",
+  "version": "0.0.1",
+  "description": "a microservice that converts a date to a unix timestamp and vice versa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "timestamp",
+    "fullstack",
+    "javascript",
+    "node",
+    "microservice"
+  ],
+  "author": "O.S.",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
